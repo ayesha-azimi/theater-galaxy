@@ -1,0 +1,90 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    color: #fff;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .stars {
+    background: url('https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/media/starfield.jpg') repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #00eaff;
+    text-shadow: 0 0 15px #00eaff;
+  }
+  
+  header h2 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-top: 10px;
+    text-shadow: 0 0 10px #00eaff;
+  }
+  
+  .theater {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .screen {
+    border: 6px solid #00eaff;
+    box-shadow: 0 0 25px #00eaff;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #111;
+    margin-bottom: 20px;
+  }
+  
+  video {
+    width: 700px;
+    max-width: 90%;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #00eaff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0ff;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #aaa;
+    font-size: 0.95rem;
+  }

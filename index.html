@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayesha Azimi's Theater - Interstellar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="stars"></div>
+  <header>
+    <h1>Ayesha Azimi's Galaxy Theater</h1>
+    <h2>Now Showing: Interstellar</h2>
+  </header>
+
+  <main class="theater">
+    <div class="screen">
+      <video id="movie" controls>
+        <source src="https://www.youtube.com/watch?v=UDVtMYqUAyw" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <button onclick="document.getElementById('movie').currentTime = 0; document.getElementById('movie').play();">
+      ▶️ Watch Again
+    </button>
+  </main>
+
+  <footer>
+    <p>Thank you for visiting Ayesha's Theater. Enjoy the cosmos!</p>
+  </footer>
+</body>
+</html>
